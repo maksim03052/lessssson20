@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+}
+.mainSection{
+
+	height: 100vh;
+	background-image: url(../img/1section.jpg);
+}
+.mainSection .textCenterWrapp{
+	text-align: center;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+.mainSection .textCenterWrapp h1{
+	margin:0;
+}
+.mainSection .textCenterWrapp .button{
+	width: 181px;
+	height: 56px;
+	background-color: #1d809f;
+	border:0;
+	color: white;
+	margin-top: 50px;
+	border-radius: 3px;
+	transition: background-color 2s, font-weight .4s;
+}
+.mainSection .textCenterWrapp .button:hover{
+ background-color: #155d74;
+ font-weight:800;
+ 
+}
