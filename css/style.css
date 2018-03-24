@@ -29,5 +29,41 @@ body{
 .mainSection .textCenterWrapp .button:hover{
  background-color: #155d74;
  font-weight:800;
- 
+}
+.services {
+	height: 70vh;
+	background-color: #1d809f;
+	padding: 150px 0;
+}
+.services .titleTextWrapp{
+	text-align: center;
+}
+.services h5{
+	margin:0;
+	margin-bottom: 10px;
+	color:#ecb807;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.services h2{
+	margin:0;
+	color:#fff;
+}
+.iconWrapp{
+	width: 15%;
+
+}
+.icon{
+	text-align: center;
+	background-color: white;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.icon svg{
+	
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
 }
